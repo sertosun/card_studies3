@@ -1,0 +1,96 @@
+*{box-sizing: border-box;}
+
+body
+{
+    font-family: 'Segoe UI';
+    margin: 0;
+}
+
+header
+{
+    background-color: rgb(57,60,66);
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.container
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cards
+{
+    background-color: rgb(204, 204, 204);
+    padding: 40px 0;
+}
+
+.card
+{
+    width: 30%;
+}
+
+.card_bild
+{
+    display: flex;
+}
+
+.card_bild img
+{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_content
+{
+    background-color: white;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card_content p
+{
+    margin: 0;
+}
+
+.card_meta
+{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_buttons
+{
+    display: flex;
+}
+
+.card_time
+{
+    font-size: 13px;
+}
+
+.btn
+{
+    padding: 4px 8px;
+    border: 1px solid rgb(167,167,167);
+    background-color: white;
+    transition: background-color 0.3s, color;
+}
+
+.btn:hover
+{
+    background-color: rgb(red, green, blue);
+}
+
+
+
